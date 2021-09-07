@@ -10,6 +10,12 @@ namespace ejercicio_1
     {
         static void Main(string[] args)
         {
+
+            NClsDatos dato = new NClsDatos();
+            Console.WriteLine(dato.venta());
+            Console.ReadLine();
+
+
         }
     }
 }

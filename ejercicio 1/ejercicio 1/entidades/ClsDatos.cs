@@ -8,5 +8,14 @@ namespace ejercicio_1.ClsDatos
 {
     class ClsDatos
     {
+
+        string dia;
+        int pago;
+        double resultado;
+
+        public string Dia { get => dia; set => dia = value; }
+        public int Pago { get => pago; set => pago = value; }
+        public double Resultado { get => resultado; set => resultado = value; }
+
     }
 }
